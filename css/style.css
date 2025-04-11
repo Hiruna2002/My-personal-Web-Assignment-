@@ -116,3 +116,34 @@ nav button{
     margin-top: -35px;
     right: 0;
 }
+
+.skills p{
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.skills hr{
+    width: fit-content;
+    position: absolute;
+    width: 10%;
+    padding: 0;
+}
+
+.skills-border{
+    position: relative;
+    border: 2px solid yellow;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+.skills-border div img{
+    margin:10px 80px 10px 10px;
+
+}
