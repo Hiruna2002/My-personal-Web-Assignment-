@@ -239,3 +239,69 @@ nav button{
 .assignment-grid div button:hover{
     background-color: blue;
 }
+
+.project p{
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.project hr{
+    position: absolute;
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+.project-grid{
+    position: relative;
+    width: 99%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.project-grid-div{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px yellow;
+}
+
+.project-grid > div:first-child >img{
+    width: 100%;
+}
+
+.project-grid > div:nth-child(2) >img{
+    width: 100%;
+}
+
+.project-grid>div:nth-child(3)>img{
+    width: 100%;
+}
+
+.project-grid-div>button:nth-child(4){
+    width: 150px;
+}
+
+.project-text{
+    position: relative;
+    font-size: 32px;
+    left: 25%;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.project-grid div:nth-child(3) img{
+    width: 500px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    background-color: darkorange;
+    border-color: darkorange;
+    margin-top: 20px;
+}
