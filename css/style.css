@@ -525,3 +525,79 @@ nav button{
         width: 100px;
     }
 }
+
+@media all and (max-width: 768px){
+    nav ul{
+        display: none;
+    }
+    nav button{
+        display: block;
+        width: 100px;
+    }
+    nav button:hover{
+        background-color: greenyellow;
+    }
+    .skills-border{
+        width: fit-content;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+    }
+    .skills hr{
+        width: 15%;
+    }
+    .assignment hr{
+        width: 30%;
+    }
+    .assignment-grid{
+        grid-template-columns: repeat(2,1fr);
+        left: 30%;
+    }
+    .achievement hr{
+        width: 35%;
+    }
+    .achievement-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .project hr{
+        width: 20%;
+    }
+    .project-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .project-grid div:nth-child(3) button{
+        display: block;
+    }
+    .gallery hr{
+        width: 20%;
+    }
+    .slider{
+        position: relative;
+        width: 500px;
+        height: 300px;
+        left: 20%;
+        overflow: hidden;
+    }
+    .contact-details hr{
+        width: 30%;
+    }
+    .contact-details-text{
+        left: 20%;
+    }
+    .contact-details-icon img{
+        width: 15%;
+        display: block;
+        padding-top: 15px;
+        margin-left: -100px;
+        position: relative;
+        top: -50px;
+    }
+    .contact-details-icon img:nth-child(4){
+        width: 20%;
+        position: relative;
+        top: -60px;
+    }
+}
