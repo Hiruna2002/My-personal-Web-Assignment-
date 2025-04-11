@@ -442,3 +442,23 @@ nav button{
 .footer div{
     height: 50px;
 }
+
+@media all and (min-width: 321px) and (max-width: 375px){
+    header{
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+    nav button{
+        display: block;
+        width: 100px;
+    }
+    .skills-border{
+        width: fit-content;
+    }
+    .assignment-grid{
+        grid-template-columns: repeat(2,1fr);
+        left: 20%;
+    }
+}
