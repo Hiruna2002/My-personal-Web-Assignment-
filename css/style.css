@@ -1,7 +1,8 @@
-.body{
+body{
     margin: 0;
     padding: 0;
     background-color : black;
+    overflow-x: hidden;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
     display: flex;
     align-items: center;
     height: 80px;
+    /*width: 100%;*/
     padding: 10px;
     background-color: blue;
 }
@@ -16,6 +18,7 @@ header {
 .logo img{
     width: 25%;
 }
+
 nav ul{
     width: fit-content;
     height: fit-content;
@@ -35,248 +38,15 @@ nav ul li a{
     color: white;
 }
 
-.home{
-    width:100%;
-    position: relative;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-}
-
-.home p{
-    color: white;
-    text-align: center;
-    font-size: 44px;
-    font-weight: bold;
-    padding-bottom: 0;
-}
-
-.home h2{
-    color: white;
-    text-align: center;
-    padding-top: 0;
-}
-
-.home img{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    left: 9%;
-}
-
-.about{
-    color: white;
-    font-size: 44px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.aboutMe hr{
-    width: fit-content;
-    position: absolute;
-    width: 15%;
-    padding: 0;
-}
-
-.aboutGrid{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
-.aboutGrid div{
-    background-color: transparent;
-    height: fit-content;
-    margin: 20px;
-}
-
-.aboutDesc{
-    color: white;
-    font-size: 22px;
-}
-.aboutGrid div img{
-    position: absolute;
-    width: 23%;
-    margin-top: -35px;
-    right: 0;
-}
-
-.skills p{
-    color: white;
-    font-size: 44px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.skills hr{
-    width: fit-content;
-    position: absolute;
-    width: 10%;
-    padding: 0;
-}
-
-.skills-border{
-    position: relative;
-    border: 2px solid yellow;
-    width: 50%;
-    height: 200px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+nav button{
+    height:fit-content;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
     margin:auto;
-}
-
-.skills-border div img{
-    margin:10px 80px 10px 10px;
-
-}
-
-.achievement p{
-    color: white;
-    font-size: 44px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.achievement hr{
-    position: absolute;
-    width: 21%;
-    margin-bottom: 20px;
-}
-
-.achievement-grid{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-}
-
-.achievement div{
-    position: relative;
-    width: 300px;
-    height: 200px;
-    border: 1px solid yellow;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-}
-
-.achievement-grid div img{
-    width:100%;
-    height: 100%;
-}
-
-.achievement-grid div:nth-child(6) p{
-    font-size: 32px;
+    display:none;
 }
 
 
-.assignment p{
-    color: white;
-    font-size: 44px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.assignment hr{
-    position: absolute;
-    width: 21%;
-    margin-bottom: 30px;
-}
-
-.assignment-grid{
-    position: relative;
-    left: 25%;
-    width: 50%;
-    height: 200px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-
-/*.assignment-grid div{*/
-/*    border: 1px solid yellow;*/
-/*}*/
-
-.assignment-grid div button{
-    background-color: lightblue;
-    width: 200px;
-    height: 50px;
-}
-
-.assignment-grid div button:hover{
-    background-color: blue;
-}
-
-.project p{
-    color: white;
-    font-size: 44px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.project hr{
-    position: absolute;
-    width: 15%;
-    margin-bottom: 30px;
-}
-
-.project-grid{
-    width: 99%;
-    height: 200px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.project-grid div{
-    border: 1px solid yellow;
-}
-
-.gallery p{
-    color: white;
-    font-size: 44px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.gallery hr{
-    position: absolute;
-    width: 13%;
-    margin-bottom: 30px;
-}
-
-.gallery-grid{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-
-.gallery div{
-    position: relative;
-    width: 300px;
-    height: 200px;
-    border: 1px solid yellow;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-}
-
-.gallery div img{
-    width:100%;
-    height: 100%;
-
-}
-
-.gallery p{
-    color: white;
-    font-size: 44px;
-    font-weight: bold;
-    margin-bottom: 0;
-
-}
 
