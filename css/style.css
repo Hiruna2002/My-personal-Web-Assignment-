@@ -79,4 +79,40 @@ nav button{
     left: 9%;
 }
 
+.about{
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
 
+.aboutMe hr{
+    width: fit-content;
+    position: absolute;
+    width: 15%;
+    padding: 0;
+}
+
+.aboutGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.aboutGrid div{
+    background-color: transparent;
+    height: fit-content;
+    margin: 20px;
+}
+
+.aboutDesc{
+    color: white;
+    font-size: 22px;
+}
+
+.aboutGrid div img{
+    position: absolute;
+    width: 23%;
+    margin-top: -35px;
+    right: 0;
+}
