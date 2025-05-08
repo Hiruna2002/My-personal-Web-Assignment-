@@ -386,6 +386,10 @@ nav ul li a:hover::after{
     padding: 15px;
 }
 
+.assignment-03-text-edit{
+    background-color: white;
+}
+
 /*contact section*/
 
 #contact{
@@ -435,6 +439,8 @@ nav ul li a:hover::after{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .contact-right form{
