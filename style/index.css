@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Arial Black";
+    font-family: serif;
 }
 
 html{
@@ -207,14 +207,6 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 
-/*.services-list div a{*/
-/*    text-decoration: none;*/
-/*    color: #ffffff;*/
-/*    font-size: 12px;*/
-/*    margin-top: 20px;*/
-/*    display: inline-block;*/
-/*}*/
-
 .services-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
@@ -380,6 +372,11 @@ nav ul li a:hover::after{
     text-align: center;
 }
 
+.content h2{
+    position: relative;
+    left: -15%;
+}
+
 .box .content a {
     display: inline-flex;
     justify-content: center;
@@ -392,10 +389,6 @@ nav ul li a:hover::after{
     font-weight: bold;
     margin: .8rem 0 3rem;
     padding: 15px;
-}
-
-.assignment-03-text-edit{
-    background-color: white;
 }
 
 /*contact section*/
