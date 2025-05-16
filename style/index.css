@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Arial Black";
 }
 
 html{
@@ -206,13 +207,13 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 
-.services-list div a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
+/*.services-list div a{*/
+/*    text-decoration: none;*/
+/*    color: #ffffff;*/
+/*    font-size: 12px;*/
+/*    margin-top: 20px;*/
+/*    display: inline-block;*/
+/*}*/
 
 .services-list div:hover{
     background: #ff004f;
@@ -555,11 +556,15 @@ nav .fa-solid{
         z-index: 2;
         transition: right 0.5s;
     }
-
+    /*********************************/
     nav ul li{
         display: none;
         /*margin: 25px;*/
     }
+    nav i{
+        display: block;
+    }
+    /*********************************/
 
     nav ul .fa-solid{
         position: absolute;
