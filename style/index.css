@@ -372,11 +372,6 @@ nav ul li a:hover::after{
     text-align: center;
 }
 
-.content h2{
-    position: relative;
-    left: -15%;
-}
-
 .box .content a {
     display: inline-flex;
     justify-content: center;
